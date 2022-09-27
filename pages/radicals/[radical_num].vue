@@ -53,34 +53,49 @@ async function gotoGwEdit(krid: string, radicalNumber: string, postion: number, 
 </script>
 
 <template>
-  <div class="container flex  mx-auto justify-center items-center">
-    <div class="flex flex-col w-full items-center">
-      <div v-if="!pending" v-for="(item,index) of data" class="flex gap-2">
-        <div>{{index+1}}</div>
-        <div>
-          <p class=" text-3xl">{{item.Entry}}</p>
-        </div>
-        <div>
-          <img :src="getOriginImage(item.KRID_sn)" alt="" class="h-24">
-        </div>
-        <div>
-          <a :href="getCreatorGwPage(item.KRID,radicalNumber,index+1)">
-            <img :src="getCreatorGwImage(item.KRID,radicalNumber,index+1)" alt="" class="h-24">
-          </a>
+  <div class="container flex  mx-auto justify-center items-center pt-4">
+    <div class="w-full overflow-x-auto ">
+      <table class="table w-full">
+        <thead>
+          <tr>
+            <th>順</th>
+            <th>原本画像</th>
+            <th>担当者作成字形</th>
+            <th></th>
+            <th>登録字形</th>
+            <th>掲出字・注文</th>
 
-        </div>
-
-        <div>
-          <span @click="gotoGwEdit(item.KRID,radicalNumber,index+1,item.Entry)"> >> </span>
-        </div>
-
-        <div>
-          <a :href="getHdicGwPage(item.KRID)">
-            <img :src="getHdicGwImage(item.KRID)" alt="" class="h-24">
-          </a>
-        </div>
-      </div>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="(item,index) of data" class="hover">
+            <th>{{index+1}}</th>
+            <td>
+              <img :src="getOriginImage(item.KRID_sn)" class="h-24">
+            </td>
+            <td>
+              <a :href="getCreatorGwPage(item.KRID,radicalNumber,index+1)" target="_blank">
+                <img :src="getCreatorGwImage(item.KRID,radicalNumber,index+1)" class="h-24">
+              </a>
+            </td>
+            <td>
+              <button class="btn btn-success"
+                @click="gotoGwEdit(item.KRID,radicalNumber,index+1,item.Entry)">>></button>
+            </td>
+            <td>
+              <a :href="getHdicGwPage(item.KRID)" target="_blank">
+                <img :src="getHdicGwImage(item.KRID)" class="h-24">
+              </a>
+            </td>
+            <td>
+              <div class="w-20">
+                <div class="text-3xl">{{item.Entry}}</div>
+                <div>{{item.Def}}</div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-
   </div>
 </template>
