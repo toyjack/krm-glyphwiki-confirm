@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import creatorData from '@/assets/creator_data.json'
 import tankiData from '@/assets/tanki_data.json'
-import { KrmItem,GwApiBody } from '@/types'
+import { KrmItem, GwApiBody } from '@/types'
 
 const route = useRoute()
 const radicalNumber = route.params.radical_num as string
@@ -9,15 +9,13 @@ const jsonFilePath = "../krm/Radical_" + ('000' + radicalNumber).slice(-3) + ".j
 const { data, pending } = await useFetch<KrmItem[]>(jsonFilePath, { initialCache: true, server: false })
 
 function getHdicGwPage(krid: string) {
-  // https://glyphwiki.org/wiki/hdic_hkrm-01001310
   return "https://glyphwiki.org/wiki/hdic_hkrm-" + krid.substring(1)
 }
 function getHdicGwImage(krid: string) {
-  // https://glyphwiki.org/glyph/hdic_hkrm-01001310.png
   return "https://glyphwiki.org/glyph/hdic_hkrm-" + krid.substring(1) + ".png"
 }
 
-function getGwName(krid: string, radicalNumber: string, postion: number){
+function getGwName(krid: string, radicalNumber: string, postion: number) {
   // this.tantou+'_hkrm-'+krid
   const creator = creatorData.filter(item => item.radical_num === radicalNumber).filter(item => parseInt(item.start) <= postion && parseInt(item.end) >= postion)
   const tanki = tankiData.filter(item => item.radical_num === radicalNumber).filter(item => parseInt(item.start) <= postion && parseInt(item.end) >= postion)
@@ -45,12 +43,11 @@ function getOriginImage(sid: string) {
   return "https://viewer.hdic.jp/img/krm/sid/" + sid
 }
 
-async function gotoGwEdit(krid: string, radicalNumber: string, postion: number){
+async function gotoGwEdit(krid: string, radicalNumber: string, postion: number, entry: string) {
   const gwName = getGwName(krid, radicalNumber, postion)
-  // https://glyphwiki.org/kage-editor/#name=hdic_hkrm-08072141&data=&edittime=
-  const url =`https://glyphwiki.org/api/glyph?name=${gwName}`
-  const { data } = await useFetch<GwApiBody>(url,{server: false})
-  const editUrl = `https://glyphwiki.org/kage-editor/#name=hdic_${gwName.split("_")[1]}&data=${data.value.data}&edittime=`
+  const url = `https://glyphwiki.org/api/glyph?name=${gwName}`
+  const { data } = await useFetch<GwApiBody>(url, { server: false, initialCache: false })
+  const editUrl = `https://glyphwiki.org/kage-editor/#name=hdic_${gwName.split("_")[1]}&data=${data.value.data}&related=${entry}&edittime=`
   window.open(editUrl, '_blank');
 }
 </script>
@@ -74,9 +71,7 @@ async function gotoGwEdit(krid: string, radicalNumber: string, postion: number){
         </div>
 
         <div>
-          <a href="#">
-            <span @click="gotoGwEdit(item.KRID,radicalNumber,index+1)"> >> </span>
-          </a>
+          <span @click="gotoGwEdit(item.KRID,radicalNumber,index+1,item.Entry)"> >> </span>
         </div>
 
         <div>
