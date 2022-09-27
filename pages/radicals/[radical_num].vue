@@ -90,7 +90,7 @@ async function gotoGwEdit(krid: string, radicalNumber: string, postion: number, 
             <td>
               <div class="w-20">
                 <div class="text-3xl">{{item.Entry}}</div>
-                <div>{{item.Def}}</div>
+                <div class="text-xs">{{item.Def}}</div>
               </div>
             </td>
           </tr>
