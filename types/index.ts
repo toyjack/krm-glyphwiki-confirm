@@ -15,3 +15,9 @@ export interface KrmItem {
 }
 
 
+export interface GwApiBody {
+  data: string;
+  name: string;
+  related: string;
+  version: number;
+}

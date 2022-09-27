@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import creatorData from '@/assets/creator_data.json'
 import tankiData from '@/assets/tanki_data.json'
-import { KrmItem } from '@/types'
+import { KrmItem,GwApiBody } from '@/types'
 
 const route = useRoute()
 const radicalNumber = route.params.radical_num as string
@@ -17,39 +17,42 @@ function getHdicGwImage(krid: string) {
   return "https://glyphwiki.org/glyph/hdic_hkrm-" + krid.substring(1) + ".png"
 }
 
-function getCreatorGwPage(krid: string, radicalNumber: string, postion: number) {
-  // https://glyphwiki.org/wiki/otakusei_hkrm-05047410
+function getGwName(krid: string, radicalNumber: string, postion: number){
+  // this.tantou+'_hkrm-'+krid
   const creator = creatorData.filter(item => item.radical_num === radicalNumber).filter(item => parseInt(item.start) <= postion && parseInt(item.end) >= postion)
   const tanki = tankiData.filter(item => item.radical_num === radicalNumber).filter(item => parseInt(item.start) <= postion && parseInt(item.end) >= postion)
   let username: string
-  if (creator.length > 0) {
-    username = creator[0].username
-  }
+
   if (tanki.length > 0) {
     username = tanki[0].username
   }
-  return `https://glyphwiki.org/wiki/${username}_hkrm-` + krid.substring(1)
+  if (creator.length > 0) {
+    username = creator[0].username
+  }
+  return `${username}_hkrm-` + krid.substring(1)
+}
+
+function getCreatorGwPage(krid: string, radicalNumber: string, postion: number) {
+  const gwName = getGwName(krid, radicalNumber, postion)
+  return `https://glyphwiki.org/wiki/${gwName}`
 }
 
 function getCreatorGwImage(krid: string, radicalNumber: string, postion: number) {
-  // https://glyphwiki.org/wiki/otakusei_hkrm-05047410
-  const creator = creatorData.filter(item => item.radical_num === radicalNumber).filter(item => parseInt(item.start) <= postion && parseInt(item.end) >= postion)
-  const tanki = tankiData.filter(item => item.radical_num === radicalNumber).filter(item => parseInt(item.start) <= postion && parseInt(item.end) >= postion)
-
-  let username: string
-  if (creator.length > 0) {
-    username = creator[0].username
-  } 
-  if (tanki.length > 0) {
-    username = tanki[0].username
-  }
-  return `https://glyphwiki.org/glyph/${username}_hkrm-` + krid.substring(1) + ".png"
+  const gwName = getGwName(krid, radicalNumber, postion)
+  return `https://glyphwiki.org/glyph/${gwName}.png`
 }
 function getOriginImage(sid: string) {
-  // https://viewer.hdic.jp/img/krm/sid/S00001
   return "https://viewer.hdic.jp/img/krm/sid/" + sid
 }
 
+async function gotoGwEdit(krid: string, radicalNumber: string, postion: number){
+  const gwName = getGwName(krid, radicalNumber, postion)
+  // https://glyphwiki.org/kage-editor/#name=hdic_hkrm-08072141&data=&edittime=
+  const url =`https://glyphwiki.org/api/glyph?name=${gwName}`
+  const { data } = await useFetch<GwApiBody>(url,{server: false})
+  const editUrl = `https://glyphwiki.org/kage-editor/#name=hdic_${gwName.split("_")[1]}&data=${data.value.data}&edittime=`
+  window.open(editUrl, '_blank');
+}
 </script>
 
 <template>
@@ -71,7 +74,9 @@ function getOriginImage(sid: string) {
         </div>
 
         <div>
-          <a href="#"><span> >> </span></a>
+          <a href="#">
+            <span @click="gotoGwEdit(item.KRID,radicalNumber,index+1)"> >> </span>
+          </a>
         </div>
 
         <div>
