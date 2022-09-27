@@ -1,0 +1,308 @@
+[
+  {
+    "username": "otakusei",
+    "vol_name": "仏下本",
+    "vol_num": "03",
+    "radical": "木部",
+    "radical_num": "29",
+    "start": "1",
+    "end": "540"
+  },
+  {
+    "username": "kaido",
+    "vol_name": "仏下本",
+    "vol_num": "03",
+    "radical": "木部",
+    "radical_num": "29",
+    "start": "541",
+    "end": "1080"
+  },
+  {
+    "username": "zhangxinfang",
+    "vol_name": "仏下本",
+    "vol_num": "03",
+    "radical": "木部",
+    "radical_num": "29",
+    "start": "1081",
+    "end": "1620"
+  },
+  {
+    "username": "linchuyi",
+    "vol_name": "仏下本",
+    "vol_num": "03",
+    "radical": "木部",
+    "radical_num": "29",
+    "start": "1621",
+    "end": "1677"
+  },
+  {
+    "username": "linchuyi",
+    "vol_name": "仏下本",
+    "vol_num": "03",
+    "radical": "手部",
+    "radical_num": "28",
+    "start": "1",
+    "end": "483"
+  },
+  {
+    "username": "ligang",
+    "vol_name": "仏下本",
+    "vol_num": "03",
+    "radical": "手部",
+    "radical_num": "28",
+    "start": "484",
+    "end": "1023"
+  },
+  {
+    "username": "otakusei",
+    "vol_name": "仏中",
+    "vol_num": "02",
+    "radical": "肉部",
+    "radical_num": "20",
+    "start": "1",
+    "end": "445"
+  },
+  {
+    "username": "linchuyi",
+    "vol_name": "仏中",
+    "vol_num": "02",
+    "radical": "肉部",
+    "radical_num": "20",
+    "start": "446",
+    "end": "888"
+  },
+  {
+    "username": "zhangxinfang",
+    "vol_name": "法中",
+    "vol_num": "06",
+    "radical": "系部",
+    "radical_num": "59",
+    "start": "1",
+    "end": "430"
+  },
+  {
+    "username": "ligang",
+    "vol_name": "法中",
+    "vol_num": "06",
+    "radical": "系部",
+    "radical_num": "59",
+    "start": "431",
+    "end": "857"
+  },
+  {
+    "username": "toikawa",
+    "vol_name": "仏中",
+    "vol_num": "02",
+    "radical": "目部",
+    "radical_num": "15",
+    "start": "1",
+    "end": "552"
+  },
+  {
+    "username": "haradanaomi",
+    "vol_name": "法上",
+    "vol_num": "05",
+    "radical": "山部",
+    "radical_num": "50",
+    "start": "1",
+    "end": "587"
+  },
+  {
+    "username": "kaido",
+    "vol_name": "法中",
+    "vol_num": "06",
+    "radical": "石部",
+    "radical_num": "51",
+    "start": "1",
+    "end": "473"
+  },
+  {
+    "username": "otakusei",
+    "vol_name": "法上",
+    "vol_num": "05",
+    "radical": "豆部",
+    "radical_num": "46",
+    "start": "1",
+    "end": "111"
+  },
+  {
+    "username": "linchuyi",
+    "vol_name": "仏上",
+    "vol_num": "01",
+    "radical": "十部",
+    "radical_num": "9",
+    "start": "1",
+    "end": "106"
+  },
+  {
+    "username": "otakusei",
+    "vol_name": "法上",
+    "vol_num": "05",
+    "radical": "言部",
+    "radical_num": "43",
+    "start": "1",
+    "end": "200"
+  },
+  {
+    "username": "linchuyi",
+    "vol_name": "法上",
+    "vol_num": "05",
+    "radical": "言部",
+    "radical_num": "43",
+    "start": "201",
+    "end": "400"
+  },
+  {
+    "username": "zhangxinfang",
+    "vol_name": "法上",
+    "vol_num": "05",
+    "radical": "言部",
+    "radical_num": "43",
+    "start": "401",
+    "end": "600"
+  },
+  {
+    "username": "toikawa",
+    "vol_name": "法上",
+    "vol_num": "05",
+    "radical": "言部",
+    "radical_num": "43",
+    "start": "601",
+    "end": "800"
+  },
+  {
+    "username": "sarashina",
+    "vol_name": "仏上",
+    "vol_num": "01",
+    "radical": "辵部 ",
+    "radical_num": "3",
+    "start": "1",
+    "end": "575"
+  },
+  {
+    "username": "otakusei",
+    "vol_name": "仏中",
+    "vol_num": "02",
+    "radical": "口部",
+    "radical_num": "14",
+    "start": "1",
+    "end": "1276"
+  },
+  {
+    "username": "linchuyi",
+    "vol_name": "法中",
+    "vol_num": "06",
+    "radical": "心部",
+    "radical_num": "57",
+    "start": "1",
+    "end": "1116"
+  },
+  {
+    "username": "toikawa",
+    "vol_name": "仏中",
+    "vol_num": "02",
+    "radical": "日部",
+    "radical_num": "18",
+    "start": "1",
+    "end": "676"
+  },
+  {
+    "username": "toikawa",
+    "vol_name": "仏下本",
+    "vol_num": "03",
+    "radical": "頁部",
+    "radical_num": "25",
+    "start": "1",
+    "end": "352"
+  },
+  {
+    "username": "dsknmt",
+    "vol_name": "僧上",
+    "vol_num": "08",
+    "radical": "艸部",
+    "radical_num": "81",
+    "start": "1",
+    "end": "1180"
+  },
+  {
+    "username": "inaz",
+    "vol_name": "僧上",
+    "vol_num": "08",
+    "radical": "艸部",
+    "radical_num": "81",
+    "start": "1181",
+    "end": "2364"
+  },
+  {
+    "username": "ligang",
+    "vol_name": "僧上",
+    "vol_num": "08",
+    "radical": "金部",
+    "radical_num": "88",
+    "start": "1",
+    "end": "922"
+  },
+  {
+    "username": "zhangxinfang",
+    "vol_name": "法上",
+    "vol_num": "05",
+    "radical": "足部",
+    "radical_num": "44",
+    "start": "1",
+    "end": "591"
+  },
+  {
+    "username": "zhangxinfang",
+    "vol_name": "法中",
+    "vol_num": "06",
+    "radical": "玉部",
+    "radical_num": "52",
+    "start": "1",
+    "end": "496"
+  },
+  {
+    "username": "haradanaomi",
+    "vol_name": "仏下末",
+    "vol_num": "04",
+    "radical": "儿部",
+    "radical_num": "35",
+    "start": "1",
+    "end": "303"
+  },
+  {
+    "username": "haradanaomi",
+    "vol_name": "仏下末",
+    "vol_num": "04",
+    "radical": "火部",
+    "radical_num": "39",
+    "start": "1",
+    "end": "651"
+  },
+  {
+    "username": "lanseki",
+    "vol_name": "僧下",
+    "vol_num": "10",
+    "radical": "虫部",
+    "radical_num": "114",
+    "start": "1",
+    "end": "1041"
+  },
+  {
+    "username": "kaido",
+    "vol_name": "僧中",
+    "vol_num": "09",
+    "radical": "鳥部",
+    "radical_num": "111",
+    "start": "1",
+    "end": "809"
+  },
+  {
+    "username": "sarashina",
+    "vol_name": "僧下",
+    "vol_num": "10",
+    "radical": "魚部",
+    "radical_num": "113",
+    "start": "1",
+    "end": "571"
+  }
+]

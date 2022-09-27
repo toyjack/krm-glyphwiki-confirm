@@ -1,0 +1,1075 @@
+[
+  {
+    "username": "hdic-tanki01",
+    "range": []
+  },
+  {
+    "username": "hdic-tanki02",
+    "range": []
+  },
+  {
+    "username": "hdic-tanki03",
+    "range": [
+      {
+        "radical": "立",
+        "start": "1",
+        "end": "113"
+      },
+      {
+        "radical": "卜",
+        "start": "1",
+        "end": "153"
+      },
+      {
+        "radical": "面",
+        "start": "1",
+        "end": "62"
+      },
+      {
+        "radical": "齒",
+        "start": "1",
+        "end": "159"
+      },
+      {
+        "radical": "色",
+        "start": "1",
+        "end": "37"
+      },
+      {
+        "radical": "邑",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "邑",
+        "start": "201",
+        "end": "357"
+      },
+      {
+        "radical": "阜",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "阜",
+        "start": "201",
+        "end": "330"
+      },
+      {
+        "radical": "土",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "土",
+        "start": "201",
+        "end": "400"
+      },
+      {
+        "radical": "土",
+        "start": "401",
+        "end": "600"
+      },
+      {
+        "radical": "土",
+        "start": "601",
+        "end": "701"
+      },
+      {
+        "radical": "巾",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "巾",
+        "start": "201",
+        "end": "318"
+      }
+    ]
+  },
+  {
+    "username": "hdic-tanki04",
+    "range": [
+      {
+        "radical": "示",
+        "start": "1",
+        "end": "274"
+      },
+      {
+        "radical": "米",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "米",
+        "start": "201",
+        "end": "321"
+      },
+      {
+        "radical": "丶",
+        "start": "1",
+        "end": "169"
+      },
+      {
+        "radical": "宀",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "宀",
+        "start": "201",
+        "end": "414"
+      },
+      {
+        "radical": "勹",
+        "start": "1",
+        "end": "37"
+      },
+      {
+        "radical": "穴",
+        "start": "1",
+        "end": "222"
+      },
+      {
+        "radical": "雨",
+        "start": "1",
+        "end": "290"
+      },
+      {
+        "radical": "門",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "門",
+        "start": "201",
+        "end": "306"
+      },
+      {
+        "radical": "口",
+        "start": "1",
+        "end": "106"
+      },
+      {
+        "radical": "尸",
+        "start": "1",
+        "end": "260"
+      }
+    ]
+  },
+  {
+    "username": "hdic-tanki05",
+    "range": [
+      {
+        "radical": "虍",
+        "start": "1",
+        "end": "127"
+      },
+      {
+        "radical": "广",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "广",
+        "start": "201",
+        "end": "393"
+      },
+      {
+        "radical": "鹿",
+        "start": "1",
+        "end": "91"
+      },
+      {
+        "radical": "疒",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "疒",
+        "start": "201",
+        "end": "400"
+      },
+      {
+        "radical": "疒",
+        "start": "401",
+        "end": "606"
+      },
+      {
+        "radical": "歹",
+        "start": "1",
+        "end": "266"
+      },
+      {
+        "radical": "子",
+        "start": "1",
+        "end": "165"
+      },
+      {
+        "radical": "斗",
+        "start": "1",
+        "end": "40"
+      },
+      {
+        "radical": "倝",
+        "start": "1",
+        "end": "29"
+      },
+      {
+        "radical": "寸",
+        "start": "1",
+        "end": "59"
+      }
+    ]
+  },
+  {
+    "username": "hdic-tanki06",
+    "range": [
+      {
+        "radical": "竹",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "竹",
+        "start": "201",
+        "end": "400"
+      },
+      {
+        "radical": "竹",
+        "start": "401",
+        "end": "724"
+      },
+      {
+        "radical": "力",
+        "start": "1",
+        "end": "139"
+      },
+      {
+        "radical": "刀",
+        "start": "1",
+        "end": "340"
+      },
+      {
+        "radical": "毛",
+        "start": "1",
+        "end": "173"
+      },
+      {
+        "radical": "食",
+        "start": "1",
+        "end": "333"
+      },
+      {
+        "radical": "亼",
+        "start": "1",
+        "end": "115"
+      }
+    ]
+  },
+  {
+    "username": "hdic-tanki07",
+    "range": [
+      {
+        "radical": "瓜",
+        "start": "1",
+        "end": "78"
+      },
+      {
+        "radical": "网",
+        "start": "1",
+        "end": "188"
+      },
+      {
+        "radical": "瓦",
+        "start": "1",
+        "end": "176"
+      },
+      {
+        "radical": "缶",
+        "start": "1",
+        "end": "47"
+      },
+      {
+        "radical": "弓",
+        "start": "1",
+        "end": "150"
+      },
+      {
+        "radical": "㫃",
+        "start": "1",
+        "end": "93"
+      },
+      {
+        "radical": "矢",
+        "start": "1",
+        "end": "44"
+      },
+      {
+        "radical": "斤",
+        "start": "1",
+        "end": "72"
+      },
+      {
+        "radical": "矛",
+        "start": "1",
+        "end": "53"
+      },
+      {
+        "radical": "戈",
+        "start": "1",
+        "end": "175"
+      },
+      {
+        "radical": "欠",
+        "start": "1",
+        "end": "123"
+      },
+      {
+        "radical": "又",
+        "start": "1",
+        "end": "124"
+      },
+      {
+        "radical": "支",
+        "start": "1",
+        "end": "305"
+      },
+      {
+        "radical": "殳",
+        "start": "1",
+        "end": "104"
+      }
+    ]
+  },
+  {
+    "username": "hdic-tanki08",
+    "range": [
+      {
+        "radical": "皮",
+        "start": "1",
+        "end": "130"
+      },
+      {
+        "radical": "革",
+        "start": "1",
+        "end": "328"
+      },
+      {
+        "radical": "韋",
+        "start": "1",
+        "end": "75"
+      },
+      {
+        "radical": "車",
+        "start": "1",
+        "end": "335"
+      },
+      {
+        "radical": "羊",
+        "start": "1",
+        "end": "119"
+      },
+      {
+        "radical": "馬",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "馬",
+        "start": "201",
+        "end": "419"
+      },
+      {
+        "radical": "隹",
+        "start": "1",
+        "end": "129"
+      },
+      {
+        "radical": "鼠",
+        "start": "1",
+        "end": "96"
+      },
+      {
+        "radical": "龜",
+        "start": "1",
+        "end": "61"
+      },
+      {
+        "radical": "鬼",
+        "start": "1",
+        "end": "121"
+      },
+      {
+        "radical": "風",
+        "start": "1",
+        "end": "160"
+      },
+      {
+        "radical": "酉",
+        "start": "1",
+        "end": "288"
+      }
+    ]
+  },
+  {
+    "username": "hdic-tanki09",
+    "range": [
+      {
+        "radical": "雑",
+        "start": "1",
+        "end": "200"
+      },
+      {
+        "radical": "雑",
+        "start": "201",
+        "end": "400"
+      },
+      {
+        "radical": "雑",
+        "start": "401",
+        "end": "600"
+      },
+      {
+        "radical": "雑",
+        "start": "601",
+        "end": "800"
+      },
+      {
+        "radical": "雑",
+        "start": "801",
+        "end": "1000"
+      },
+      {
+        "radical": "雑",
+        "start": "1001",
+        "end": "1200"
+      },
+      {
+        "radical": "雑",
+        "start": "1201",
+        "end": "1400"
+      },
+      {
+        "radical": "雑",
+        "start": "1401",
+        "end": "1600"
+      },
+      {
+        "radical": "雑",
+        "start": "1601",
+        "end": "1800"
+      },
+      {
+        "radical": "雑",
+        "start": "1801",
+        "end": "2062"
+      }
+    ]
+  },
+  {
+    "username": "hdic-tanki10",
+    "range": [
+      {
+        "radical": "人",
+        "start": "1",
+        "end": "1150"
+      },
+      {
+        "radical": "彳",
+        "start": "1",
+        "end": "229"
+      },
+      {
+        "radical": "辵",
+        "start": "1",
+        "end": "574"
+      },
+      {
+        "radical": "匚",
+        "start": "1",
+        "end": "64"
+      },
+      {
+        "radical": "走",
+        "start": "1",
+        "end": "201"
+      },
+      {
+        "radical": "麥",
+        "start": "1",
+        "end": "116"
+      },
+      {
+        "radical": "一",
+        "start": "1",
+        "end": "216"
+      },
+      {
+        "radical": "丨",
+        "start": "1",
+        "end": "96"
+      },
+      {
+        "radical": "十",
+        "start": "1",
+        "end": "106"
+      },
+      {
+        "radical": "身",
+        "start": "1",
+        "end": "88"
+      },
+      {
+        "radical": "耳",
+        "start": "1",
+        "end": "153"
+      },
+      {
+        "radical": "女",
+        "start": "1",
+        "end": "646"
+      },
+      {
+        "radical": "舌",
+        "start": "1",
+        "end": "51"
+      },
+      {
+        "radical": "口",
+        "start": "1",
+        "end": "1276"
+      },
+      {
+        "radical": "目",
+        "start": "1",
+        "end": "551"
+      },
+      {
+        "radical": "鼻",
+        "start": "1",
+        "end": "45"
+      },
+      {
+        "radical": "見",
+        "start": "1",
+        "end": "137"
+      },
+      {
+        "radical": "日",
+        "start": "1",
+        "end": "676"
+      },
+      {
+        "radical": "田",
+        "start": "1",
+        "end": "193"
+      },
+      {
+        "radical": "肉",
+        "start": "1",
+        "end": "885"
+      },
+      {
+        "radical": "舟",
+        "start": "1",
+        "end": "125"
+      },
+      {
+        "radical": "骨",
+        "start": "1",
+        "end": "141"
+      },
+      {
+        "radical": "角",
+        "start": "1",
+        "end": "150"
+      },
+      {
+        "radical": "貝",
+        "start": "1",
+        "end": "248"
+      },
+      {
+        "radical": "頁",
+        "start": "1",
+        "end": "351"
+      },
+      {
+        "radical": "彡",
+        "start": "1",
+        "end": "32"
+      },
+      {
+        "radical": "髟",
+        "start": "1",
+        "end": "221"
+      },
+      {
+        "radical": "手",
+        "start": "1",
+        "end": "1463"
+      },
+      {
+        "radical": "木",
+        "start": "1",
+        "end": "1676"
+      },
+      {
+        "radical": "犬",
+        "start": "1",
+        "end": "374"
+      },
+      {
+        "radical": "牛",
+        "start": "1",
+        "end": "202"
+      },
+      {
+        "radical": "片",
+        "start": "1",
+        "end": "74"
+      },
+      {
+        "radical": "豸",
+        "start": "1",
+        "end": "144"
+      },
+      {
+        "radical": "乙",
+        "start": "1",
+        "end": "42"
+      },
+      {
+        "radical": "儿",
+        "start": "1",
+        "end": "303"
+      },
+      {
+        "radical": "収",
+        "start": "1",
+        "end": "125"
+      },
+      {
+        "radical": "八",
+        "start": "1",
+        "end": "152"
+      },
+      {
+        "radical": "大",
+        "start": "1",
+        "end": "168"
+      },
+      {
+        "radical": "火",
+        "start": "1",
+        "end": "651"
+      },
+      {
+        "radical": "黒",
+        "start": "1",
+        "end": "108"
+      },
+      {
+        "radical": "水",
+        "start": "1",
+        "end": "1568"
+      },
+      {
+        "radical": "冫",
+        "start": "1",
+        "end": "94"
+      },
+      {
+        "radical": "言",
+        "start": "1",
+        "end": "798"
+      },
+      {
+        "radical": "足",
+        "start": "1",
+        "end": "591"
+      },
+      {
+        "radical": "立",
+        "start": "1",
+        "end": "113"
+      },
+      {
+        "radical": "豆",
+        "start": "1",
+        "end": "111"
+      },
+      {
+        "radical": "卜",
+        "start": "1",
+        "end": "153"
+      },
+      {
+        "radical": "面",
+        "start": "1",
+        "end": "62"
+      },
+      {
+        "radical": "齒",
+        "start": "1",
+        "end": "159"
+      },
+      {
+        "radical": "山",
+        "start": "1",
+        "end": "587"
+      },
+      {
+        "radical": "石",
+        "start": "1",
+        "end": "472"
+      },
+      {
+        "radical": "玉",
+        "start": "1",
+        "end": "495"
+      },
+      {
+        "radical": "色",
+        "start": "1",
+        "end": "37"
+      },
+      {
+        "radical": "邑",
+        "start": "1",
+        "end": "357"
+      },
+      {
+        "radical": "阜",
+        "start": "1",
+        "end": "330"
+      },
+      {
+        "radical": "土",
+        "start": "1",
+        "end": "701"
+      },
+      {
+        "radical": "心",
+        "start": "1",
+        "end": "1116"
+      },
+      {
+        "radical": "巾",
+        "start": "1",
+        "end": "318"
+      },
+      {
+        "radical": "糸",
+        "start": "1",
+        "end": "856"
+      },
+      {
+        "radical": "衣",
+        "start": "1",
+        "end": "517"
+      },
+      {
+        "radical": "示",
+        "start": "1",
+        "end": "274"
+      },
+      {
+        "radical": "禾",
+        "start": "1",
+        "end": "594"
+      },
+      {
+        "radical": "米",
+        "start": "1",
+        "end": "321"
+      },
+      {
+        "radical": "丶",
+        "start": "1",
+        "end": "169"
+      },
+      {
+        "radical": "宀",
+        "start": "1",
+        "end": "414"
+      },
+      {
+        "radical": "勹",
+        "start": "1",
+        "end": "37"
+      },
+      {
+        "radical": "穴",
+        "start": "1",
+        "end": "222"
+      },
+      {
+        "radical": "雨",
+        "start": "1",
+        "end": "290"
+      },
+      {
+        "radical": "門",
+        "start": "1",
+        "end": "306"
+      },
+      {
+        "radical": "口",
+        "start": "1",
+        "end": "106"
+      },
+      {
+        "radical": "尸",
+        "start": "1",
+        "end": "260"
+      },
+      {
+        "radical": "虍",
+        "start": "1",
+        "end": "127"
+      },
+      {
+        "radical": "广",
+        "start": "1",
+        "end": "393"
+      },
+      {
+        "radical": "鹿",
+        "start": "1",
+        "end": "91"
+      },
+      {
+        "radical": "疒",
+        "start": "1",
+        "end": "606"
+      },
+      {
+        "radical": "歹",
+        "start": "1",
+        "end": "266"
+      },
+      {
+        "radical": "子",
+        "start": "1",
+        "end": "165"
+      },
+      {
+        "radical": "斗",
+        "start": "1",
+        "end": "40"
+      },
+      {
+        "radical": "倝",
+        "start": "1",
+        "end": "29"
+      },
+      {
+        "radical": "寸",
+        "start": "1",
+        "end": "59"
+      },
+      {
+        "radical": "艸",
+        "start": "1",
+        "end": "2363"
+      },
+      {
+        "radical": "竹",
+        "start": "1",
+        "end": "724"
+      },
+      {
+        "radical": "力",
+        "start": "1",
+        "end": "139"
+      },
+      {
+        "radical": "刀",
+        "start": "1",
+        "end": "340"
+      },
+      {
+        "radical": "羽",
+        "start": "1",
+        "end": "147"
+      },
+      {
+        "radical": "毛",
+        "start": "1",
+        "end": "173"
+      },
+      {
+        "radical": "食",
+        "start": "1",
+        "end": "333"
+      },
+      {
+        "radical": "金",
+        "start": "1",
+        "end": "922"
+      },
+      {
+        "radical": "亼",
+        "start": "1",
+        "end": "115"
+      },
+      {
+        "radical": "瓜",
+        "start": "1",
+        "end": "78"
+      },
+      {
+        "radical": "网",
+        "start": "1",
+        "end": "188"
+      },
+      {
+        "radical": "皿",
+        "start": "1",
+        "end": "163"
+      },
+      {
+        "radical": "瓦",
+        "start": "1",
+        "end": "176"
+      },
+      {
+        "radical": "缶",
+        "start": "1",
+        "end": "47"
+      },
+      {
+        "radical": "弓",
+        "start": "1",
+        "end": "150"
+      },
+      {
+        "radical": "㫃",
+        "start": "1",
+        "end": "93"
+      },
+      {
+        "radical": "矢",
+        "start": "1",
+        "end": "44"
+      },
+      {
+        "radical": "斤",
+        "start": "1",
+        "end": "72"
+      },
+      {
+        "radical": "矛",
+        "start": "1",
+        "end": "53"
+      },
+      {
+        "radical": "戈",
+        "start": "1",
+        "end": "175"
+      },
+      {
+        "radical": "欠",
+        "start": "1",
+        "end": "164"
+      },
+      {
+        "radical": "又",
+        "start": "1",
+        "end": "124"
+      },
+      {
+        "radical": "攴",
+        "start": "1",
+        "end": "305"
+      },
+      {
+        "radical": "殳",
+        "start": "1",
+        "end": "104"
+      },
+      {
+        "radical": "皮",
+        "start": "1",
+        "end": "130"
+      },
+      {
+        "radical": "革",
+        "start": "1",
+        "end": "328"
+      },
+      {
+        "radical": "韋",
+        "start": "1",
+        "end": "75"
+      },
+      {
+        "radical": "車",
+        "start": "1",
+        "end": "335"
+      },
+      {
+        "radical": "羊",
+        "start": "1",
+        "end": "119"
+      },
+      {
+        "radical": "馬",
+        "start": "1",
+        "end": "419"
+      },
+      {
+        "radical": "鳥",
+        "start": "1",
+        "end": "809"
+      },
+      {
+        "radical": "隹",
+        "start": "1",
+        "end": "129"
+      },
+      {
+        "radical": "魚",
+        "start": "1",
+        "end": "571"
+      },
+      {
+        "radical": "虫",
+        "start": "1",
+        "end": "1041"
+      },
+      {
+        "radical": "鼠",
+        "start": "1",
+        "end": "96"
+      },
+      {
+        "radical": "龜",
+        "start": "1",
+        "end": "61"
+      },
+      {
+        "radical": "鬼",
+        "start": "1",
+        "end": "121"
+      },
+      {
+        "radical": "風",
+        "start": "1",
+        "end": "160"
+      },
+      {
+        "radical": "酉",
+        "start": "1",
+        "end": "288"
+      },
+      {
+        "radical": "雑",
+        "start": "1",
+        "end": "2062"
+      }
+    ]
+  }
+]
