@@ -1,7 +1,3 @@
-<script setup lang="ts">
-const route =  useRoute()
-</script>
-
 <template>
   <div class="h-screen flex flex-col">
 
@@ -15,9 +11,9 @@ const route =  useRoute()
         </div>
       </div>
 
-      <div class="tabs md:px-20">
-        <NuxtLink class="tab tab-lifted" to="/" activeClass="tab-active">Home</NuxtLink>
-        <NuxtLink class="tab tab-lifted" to="/radicals" activeClass="tab-active">Radical List</NuxtLink>
+      <div class="tabs md:px-20 bg">
+        <NuxtLink class="tab tab-lifted" to="/" activeClass="tab-active">ホーム</NuxtLink>
+        <NuxtLink class="tab tab-lifted" to="/radicals" activeClass="tab-active">部首リスト</NuxtLink>
       </div>
 
     </header>
@@ -29,8 +25,10 @@ const route =  useRoute()
     </main>
 
     <footer class="bg-gradient-to-r from-green-500 to-teal-300 text-white flex flex-col items-center justify-center">
-      <div class="text-sm md:text-base p-2 md:p-4">Copyright 2022 <a href="https://researchmap.jp/liuguanwei"
-          target="blank" class="underline">Guanwei Liu</a></div>
+      <div class="text-sm md:text-base p-2 md:p-4">
+        <p>Copyright 2022 <a href="https://researchmap.jp/liuguanwei" target="blank" class="underline">Guanwei Liu</a></p>
+        <p>All data from <a href="https://hdic.jp" class="underline">HDIC Project.</a></p>
+      </div>
     </footer>
   </div>
 </template>
