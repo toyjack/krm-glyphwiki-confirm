@@ -1,42 +1,17 @@
-# Nuxt 3 Minimal Starter
+# GlyphWikiによる観智院本『類聚名義抄』字形登録確認専用サイト
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+[https://krm-glyphwiki-confirm.netlify.app/](https://krm-glyphwiki-confirm.netlify.app/)で公開しております。
 
-## Setup
+## GlyphWikiによる観智院本『類聚名義抄』字形の再現
 
-Make sure to install the dependencies:
+平安時代漢字字書総合データベース（HDIC）プロジェクトでは、観智院本『類聚名義抄』（以下、名義抄）の全文テキストデータベースを2022年3月に公開した。
+名義抄は、平安時代の日本語の重要資料であり、その価値は、多数の和訓を収録し日本語の語彙史の資料となること、和訓と漢字の多くに声点が施され音韻史の資料となること、
+漢字には「正」「俗」等の字体注記が豊富で文字史の資料となることにある。名義抄は古写本として伝存するが、その活字翻刻本はいまだ存在しない。
+これは、名義抄に難字が極めて多いことによるが、UnicodeとGlyphWikiとを併用すれば、必要な字形を作字することが可能である。
+ただ、手書きの漢字を明朝体化するに際して、包摂の範囲を明示的に示す必要がある。
+このサイトは、作成した字形の登録と確認のためのものである。
 
-```bash
-# yarn
-yarn install
+## ライセンス
 
-# npm
-npm install
+MIT
 
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.

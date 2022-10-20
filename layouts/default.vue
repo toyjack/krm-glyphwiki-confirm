@@ -4,9 +4,9 @@
     <header class="bg-gradient-to-r from-green-500 to-teal-300 flex flex-col justify-between">
       <div class="flex flex-row justify-between px-2 pt-7 pb-2 md:p-20 ">
         <div class="flex flex-col">
-          <h6 class="text-sm md:text-xl text-white">krm glyphwiki confirm</h6>
+          <h6 class="text-sm md:text-xl text-white">KRM GlyphWiki Check & Confirmation</h6>
           <h3 class="text-left text-xl md:text-3xl font-serif text-white  uppercase">
-            <NuxtLink to="/" class="hover:underline">KRM作字プラットフォーム字形確認</NuxtLink>
+            <NuxtLink to="/" class="hover:underline">観智院本『類聚名義抄』字形登録確認専用サイト</NuxtLink>
           </h3>
         </div>
       </div>
