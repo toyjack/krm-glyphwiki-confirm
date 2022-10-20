@@ -1,7 +1,12 @@
 <template>
   <div class="hero min-h-fit md:min-h-screen bg-base-200">
     <div class="hero-content flex-col lg:flex-row-reverse">
-      <img src="https://www.dl.ndl.go.jp/api/iiif/2586890/F0000004/full/full/0/default.jpg" class="max-w-sm rounded-lg shadow-2xl" />
+      <div class="tooltip" data-tip="類聚名義抄 - 国立国会図書館デジタルコレクション">
+        <a href="https://dl.ndl.go.jp/info:ndljp/pid/2609857">
+          <img src="https://www.dl.ndl.go.jp/api/iiif/2586890/F0000004/full/full/0/default.jpg"
+            class="max-w-sm rounded-lg shadow-2xl" alt="類聚名義抄 - 国立国会図書館デジタルコレクション" />
+        </a>
+      </div>
       <div>
         <h1 class="text-5xl font-bold">GlyphWikiによる観智院本『類聚名義抄』字形の再現</h1>
         <p class="py-6">
