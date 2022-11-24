@@ -6,7 +6,7 @@ import { KrmItem, GwApiBody } from '@/types'
 const route = useRoute()
 const radicalNumber = route.params.radical_num as string
 const jsonFilePath = "../krm/Radical_" + ('000' + radicalNumber).slice(-3) + ".json";
-const { data, pending } = await useFetch<KrmItem[]>(jsonFilePath, { initialCache: true, server: false })
+const { data, pending } = await useFetch<KrmItem[]>(jsonFilePath, { initialCache: false, server: false })
 
 function getHdicGwPage(krid: string) {
   return "https://glyphwiki.org/wiki/hdic_hkrm-" + krid.substring(1)
